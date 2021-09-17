@@ -778,3 +778,10 @@ ws.on('message', function incoming(data) {
   console.log(data);
 });
 ```
+
+## UUID
+
+```
+{ v4: uuid } = require('uuid');
+uuid() // c55e38da-6969-4c24-96a6-9de2a70247d7
+```

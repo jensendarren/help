@@ -60,6 +60,26 @@ Replace that version of the file in your wd
 git checkout 000a7a9a path/to/the/file.txt
 ```
 
+### Fix issue with connecting to Github over SSH on port 443
+
+Maybe Github will stop working with `ssh: connect to host github.com port 22: Operation timed out. fatal: Could not read from remote repository.`.
+
+To fix this you need to enable SSH config to work over HTTPS, as explained in [this post](https://www.ionicframeworks.com/2020/02/connect-to-host-githubcom-port-22.html).
+
+Basically, to test run this command `ssh -T git@github.com`. If it times out or has an errro then add the following to your `~/.ssh/config` file:
+
+```
+Host github.com
+   HostName ssh.github.com
+   Port 443
+```
+
+Now run the `ssh -T git@github.com` again and you should see:
+
+```
+Hi jensendarren! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
 ### Sort branches by latest commit timestamps
 
 Lets say you need to find out which branch has the laest code. Run the following using `git`.

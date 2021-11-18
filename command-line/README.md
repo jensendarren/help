@@ -184,7 +184,7 @@ Unmounting a drive is also pretty simple:
 umount /mnt
 ```
 
-## fstab
+## fstab disk utility
 
 Its always a good idea to use `fstab` for mounting drives automatically. Usually a good place to check if drives are not mounting / unmounting as expected:
 

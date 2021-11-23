@@ -1,7 +1,7 @@
 export EDITOR=nano
 export KOPS_STATE_STORE=s3://kops-state-rt7665
 
- # This loads nvm
+# This loads nvm
 export NVM_DIR="/Users/darren/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 # added by Anaconda3 5.2.0 installer
@@ -52,15 +52,47 @@ alias wkh='cd ~/workspace/help/'
 alias wku='cd ~/workspace/udacity/blockchain/'
 alias wkpn='cd ~/workspace/pn/pointnetwork'
 alias wkpy='cd ~/workspace/udacity/aifortrading/jupyter'
+alias wkl2='cd ~/workspace/upwork/karam/ze/l2'
+alias laws='cd ~/workspace/learning/aws-sa-pro'
 
 # Point Network
-alias point-1="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_storage_provider' && npx knex migrate:latest && ./point --datadir ~/.point/test1 -v"
-alias point-2="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_website_owner' && npx knex migrate:latest && npx nodemon ./point --datadir ~/.point/test2"
-alias point-2-debug="./point --datadir ~/.point/test2"
-alias point-3="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_website_visitor' && npx knex migrate:latest && ./point --datadir ~/.point/test3 -v"
+alias point-1="./point --datadir ~/.point/test1 -v"
+alias point-2="./point --datadir ~/.point/test2 -v"
+alias point-3="./point --datadir ~/.point/test3 -v"
 alias point-nuke="./point debug-destroy-everything --datadir ~/.point/test1; ./point debug-destroy-everything --datadir ~/.point/test2; ./point debug-destroy-everything --datadir ~/.point/test3"
-alias point-docker="docker-compose -f docker-compose.yaml -f docker-compose.dev.yaml up -d"
-alias point-sdk="web-ext run --firefox-profile=website_owner --source-dir dist/prod --url https://hello.z/"
+alias point-nuke-1="./point debug-destroy-everything --datadir ~/.point/test1"
+alias point-nuke-2="./point debug-destroy-everything --datadir ~/.point/test2"
+alias point-nuke-3="./point debug-destroy-everything --datadir ~/.point/test3"
+alias point-truffle="cd truffle && { truffle migrate && cd .. } || cd .."
+alias point-migrate="point-1 migrate; point-2 migrate; point-3 migrate;"
+alias point-refresh="point-nuke; point-migrate;"
+alias point-migfresh="point-1 makemigration && point-refresh"
+alias pointm="point-migfresh"
+
+# alias point-1="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_storage_provider' && npx knex migrate:latest && ./point --datadir ~/.point/test1 -v"
+# alias point-2="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_website_owner' && npx knex migrate:latest && npx nodemon ./point --datadir ~/.point/test2"
+# alias point-2-debug="./point --datadir ~/.point/test2"
+# alias point-3="export DATABASE_URL='postgres://pointuser:pointpassword@localhost:5432/point_website_visitor' && npx knex migrate:latest && ./point --datadir ~/.point/test3 -v"
+# alias point-nuke="./point debug-destroy-everything --datadir ~/.point/test1; ./point debug-destroy-everything --datadir ~/.point/test2; ./point debug-destroy-everything --datadir ~/.point/test3"
+
+alias point-e2e="docker-compose --env-file .env.e2e -f docker-compose.e2e.yaml -f docker-compose.dev.yaml "
+alias point-ganache="docker-compose -f docker-compose.yaml -f docker-compose.ganache.yaml "
+alias point-znet="docker-compose "
+alias point-znet-local="docker-compose -f docker-compose.yaml -f docker-compose.znet.local.yaml "
+alias point-devnet="docker-compose --env-file .env.devnet "
+alias point-devnet-local="docker-compose -f docker-compose.devnet.yaml up -d"
+alias point-test="docker-compose -f docker-compose.test.yaml up -d && docker-compose -f docker-compose.test.yaml run --entrypoint bash tests"
+
+alias point-browser-1="web-ext run --firefox-profile=storage_provider --keep-profile-changes --source-dir dist/prod --url https://point/"
+alias point-browser-2="web-ext run --firefox-profile=website_owner --keep-profile-changes --source-dir dist/prod --url https://point/"
+alias point-browser-3="web-ext run --firefox-profile=website_visitor --keep-profile-changes --source-dir dist/prod --url https://point/"
+
+alias point-browser-docker-1="web-ext run --firefox-profile=storage_provider_docker --keep-profile-changes --source-dir dist/prod --url https://point/"
+alias point-browser-docker-2="web-ext run --firefox-profile=website_owner_docker --keep-profile-changes --source-dir dist/prod --url https://point/"
+alias point-browser-docker-3="web-ext run --firefox-profile=website_visitor_docker --keep-profile-changes --source-dir dist/prod --url https://point/"
+
+alias point-browser-znet="web-ext run --firefox-profile=znet --keep-profile-changes --source-dir dist/prod --url https://point/"
+alias point-browser-dev="web-ext run --firefox-profile=website_owner_docker --keep-profile-changes --source-dir dist --url https://point/"
 
 # Docker helper functions
 dexec() { docker exec -it "$1" bash; }

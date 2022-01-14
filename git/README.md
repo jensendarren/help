@@ -51,7 +51,13 @@ git diff 5688b75
 Show a specific file at a particular commit
 
 ```
-git show 000a7a9a:path/to/the/file.txt
+git show 000a7a9a path/to/the/file.txt
+```
+
+Show a list of files changed in a specific commit using git show with the --name-only flag:
+
+```
+git show 000a7a9a --name-only
 ```
 
 Replace that version of the file in your wd

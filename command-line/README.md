@@ -1,3 +1,7 @@
+# Bash Bible
+
+[Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible)
+
 # Command Line
 
 `sudo su` elevate to sudo user permanently (without password)

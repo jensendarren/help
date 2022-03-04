@@ -522,6 +522,22 @@ or
 journalctl --vacuum-size=100M
 ```
 
+### Logging the output of a command to a file using pipes
+
+Append standard output and standard error stream to a file and output all to the terminal use:
+
+```
+command |& tee -a output.txt
+```
+
+Append standard output and standard error streamto a file only use:
+
+```
+command &>> output.txt
+```
+
+More examples can be found on this [SO article](https://askubuntu.com/questions/420981/how-do-i-save-terminal-output-to-a-file).
+
 ### Extract Zip / Compressed File Function alias
 
 ```

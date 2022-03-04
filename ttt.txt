@@ -1,0 +1,93 @@
+INFO [03-04|09:26:27.581] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-04|09:26:27.581] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+INFO [03-04|09:26:27.583] Set global gas cap                       cap=50,000,000
+INFO [03-04|09:26:27.583] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|09:26:27.583] Allocated cache and file handles         database=/Users/darren/workspace/help/geth-dev/geth/chaindata cache=512.00MiB handles=5120
+INFO [03-04|09:26:27.624] Opened ancient database                  database=/Users/darren/workspace/help/geth-dev/geth/chaindata/ancient readonly=false
+INFO [03-04|09:26:27.626] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Engine: ethash}"
+INFO [03-04|09:26:27.627] Disk storage enabled for ethash caches   dir=/Users/darren/workspace/help/geth-dev/geth/ethash count=3
+INFO [03-04|09:26:27.627] Disk storage enabled for ethash DAGs     dir=/Users/darren/Library/Ethash count=2
+INFO [03-04|09:26:27.627] Initialising Ethereum protocol           network=16 dbversion=8
+INFO [03-04|09:26:27.647] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:27.647] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:27.647] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:27.647] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-04|09:26:27.648] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-04|09:26:27.648] Gasprice oracle is ignoring threshold set threshold=2
+INFO [03-04|09:26:27.649] Starting peer-to-peer node               instance=Geth/v1.10.6-stable/darwin-amd64/go1.16.6
+INFO [03-04|09:26:27.684] New local node record                    seq=4 id=fb923ac77ad87a98 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|09:26:27.684] Started P2P networking                   self="enode://61ca396e8707b311bd363ede3745f8e417e9e1387cb26f5cc943eae9c10bd90982e649846e346483ac5a8614315f254af37a060629db0256da0e173c61119905@127.0.0.1:30303?discport=0"
+INFO [03-04|09:26:27.686] IPC endpoint opened                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:26:27.686] WebSocket enabled                        url=ws://127.0.0.1:8546
+INFO [03-04|09:26:35.456] Got interrupt, shutting down... 
+INFO [03-04|09:26:35.458] HTTP server stopped                      endpoint=127.0.0.1:8546
+INFO [03-04|09:26:35.458] IPC endpoint closed                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:26:35.458] Ethereum protocol stopped 
+INFO [03-04|09:26:35.458] Transaction pool stopped 
+INFO [03-04|09:26:35.459] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-04|09:26:35.459] Persisted trie from memory database      nodes=0 size=0.00B time="6.495µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-04|09:26:35.459] Writing clean trie cache to disk         path=/Users/darren/workspace/help/geth-dev/geth/triecache threads=4
+INFO [03-04|09:26:35.508] Persisted the clean trie cache           path=/Users/darren/workspace/help/geth-dev/geth/triecache elapsed=49.341ms
+INFO [03-04|09:26:35.508] Blockchain stopped 
+INFO [03-04|09:26:41.002] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-04|09:26:41.003] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+INFO [03-04|09:26:41.004] Set global gas cap                       cap=50,000,000
+INFO [03-04|09:26:41.004] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|09:26:41.004] Allocated cache and file handles         database=/Users/darren/workspace/help/geth-dev/geth/chaindata cache=512.00MiB handles=5120
+INFO [03-04|09:26:41.100] Opened ancient database                  database=/Users/darren/workspace/help/geth-dev/geth/chaindata/ancient readonly=false
+INFO [03-04|09:26:41.102] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Engine: ethash}"
+INFO [03-04|09:26:41.103] Disk storage enabled for ethash caches   dir=/Users/darren/workspace/help/geth-dev/geth/ethash count=3
+INFO [03-04|09:26:41.103] Disk storage enabled for ethash DAGs     dir=/Users/darren/Library/Ethash count=2
+INFO [03-04|09:26:41.103] Initialising Ethereum protocol           network=16 dbversion=8
+INFO [03-04|09:26:41.133] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:41.134] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:41.134] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:41.134] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-04|09:26:41.135] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-04|09:26:41.135] Gasprice oracle is ignoring threshold set threshold=2
+INFO [03-04|09:26:41.135] Starting peer-to-peer node               instance=Geth/v1.10.6-stable/darwin-amd64/go1.16.6
+INFO [03-04|09:26:41.175] IPC endpoint opened                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:26:41.175] New local node record                    seq=5 id=fb923ac77ad87a98 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|09:26:41.178] Started P2P networking                   self="enode://61ca396e8707b311bd363ede3745f8e417e9e1387cb26f5cc943eae9c10bd90982e649846e346483ac5a8614315f254af37a060629db0256da0e173c61119905@127.0.0.1:30303?discport=0"
+INFO [03-04|09:26:41.178] WebSocket enabled                        url=ws://127.0.0.1:8546
+INFO [03-04|09:26:48.101] Got interrupt, shutting down... 
+INFO [03-04|09:26:48.103] HTTP server stopped                      endpoint=127.0.0.1:8546
+INFO [03-04|09:26:48.104] IPC endpoint closed                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:26:48.104] Ethereum protocol stopped 
+INFO [03-04|09:26:48.104] Transaction pool stopped 
+INFO [03-04|09:26:48.104] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-04|09:26:48.104] Persisted trie from memory database      nodes=0 size=0.00B time="7.155µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-04|09:26:48.104] Writing clean trie cache to disk         path=/Users/darren/workspace/help/geth-dev/geth/triecache threads=4
+INFO [03-04|09:26:48.154] Persisted the clean trie cache           path=/Users/darren/workspace/help/geth-dev/geth/triecache elapsed=49.919ms
+INFO [03-04|09:26:48.154] Blockchain stopped 
+INFO [03-04|09:26:49.102] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-04|09:26:49.102] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+INFO [03-04|09:26:49.103] Set global gas cap                       cap=50,000,000
+INFO [03-04|09:26:49.103] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|09:26:49.103] Allocated cache and file handles         database=/Users/darren/workspace/help/geth-dev/geth/chaindata cache=512.00MiB handles=5120
+INFO [03-04|09:26:49.155] Opened ancient database                  database=/Users/darren/workspace/help/geth-dev/geth/chaindata/ancient readonly=false
+INFO [03-04|09:26:49.157] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Engine: ethash}"
+INFO [03-04|09:26:49.158] Disk storage enabled for ethash caches   dir=/Users/darren/workspace/help/geth-dev/geth/ethash count=3
+INFO [03-04|09:26:49.158] Disk storage enabled for ethash DAGs     dir=/Users/darren/Library/Ethash count=2
+INFO [03-04|09:26:49.158] Initialising Ethereum protocol           network=16 dbversion=8
+INFO [03-04|09:26:49.175] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:49.176] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:49.176] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:26:49.176] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-04|09:26:49.176] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-04|09:26:49.177] Gasprice oracle is ignoring threshold set threshold=2
+INFO [03-04|09:26:49.177] Starting peer-to-peer node               instance=Geth/v1.10.6-stable/darwin-amd64/go1.16.6
+INFO [03-04|09:26:49.216] New local node record                    seq=6 id=fb923ac77ad87a98 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|09:26:49.216] Started P2P networking                   self="enode://61ca396e8707b311bd363ede3745f8e417e9e1387cb26f5cc943eae9c10bd90982e649846e346483ac5a8614315f254af37a060629db0256da0e173c61119905@127.0.0.1:30303?discport=0"
+INFO [03-04|09:26:49.217] IPC endpoint opened                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:26:49.218] WebSocket enabled                        url=ws://127.0.0.1:8546
+INFO [03-04|09:28:03.735] Got interrupt, shutting down... 
+INFO [03-04|09:28:03.738] HTTP server stopped                      endpoint=127.0.0.1:8546
+INFO [03-04|09:28:03.741] IPC endpoint closed                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:28:03.741] Ethereum protocol stopped 
+INFO [03-04|09:28:03.741] Transaction pool stopped 
+INFO [03-04|09:28:03.741] Writing snapshot state to disk           root=d7f897..0f0544
+INFO [03-04|09:28:03.741] Persisted trie from memory database      nodes=0 size=0.00B time="7.924µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-04|09:28:03.741] Writing clean trie cache to disk         path=/Users/darren/workspace/help/geth-dev/geth/triecache threads=4
+INFO [03-04|09:28:03.789] Persisted the clean trie cache           path=/Users/darren/workspace/help/geth-dev/geth/triecache elapsed=48.016ms
+INFO [03-04|09:28:03.789] Blockchain stopped 

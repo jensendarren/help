@@ -1,0 +1,26 @@
+INFO [03-04|09:53:55.920] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-04|09:53:55.920] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+INFO [03-04|09:53:55.922] Set global gas cap                       cap=50,000,000
+INFO [03-04|09:53:55.922] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [03-04|09:53:55.922] Allocated cache and file handles         database=/Users/darren/workspace/help/geth-dev/geth/chaindata cache=512.00MiB handles=5120
+INFO [03-04|09:53:55.965] Opened ancient database                  database=/Users/darren/workspace/help/geth-dev/geth/chaindata/ancient readonly=false
+INFO [03-04|09:53:55.967] Initialised chain configuration          config="{ChainID: 1 Homestead: 1150000 DAO: 1920000 DAOSupport: true EIP150: 2463000 EIP155: 2675000 EIP158: 2675000 Byzantium: 4370000 Constantinople: 7280000 Petersburg: 7280000 Istanbul: 9069000, Muir Glacier: 9200000, Berlin: 12244000, London: 12965000, Engine: ethash}"
+INFO [03-04|09:53:55.968] Disk storage enabled for ethash caches   dir=/Users/darren/workspace/help/geth-dev/geth/ethash count=3
+INFO [03-04|09:53:55.968] Disk storage enabled for ethash DAGs     dir=/Users/darren/Library/Ethash count=2
+INFO [03-04|09:53:55.969] Initialising Ethereum protocol           network=16 dbversion=8
+INFO [03-04|09:53:55.990] Loaded most recent local header          number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:53:55.990] Loaded most recent local full block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:53:55.990] Loaded most recent local fast block      number=0 hash=d4e567..cb8fa3 td=17,179,869,184 age=52y11mo5d
+INFO [03-04|09:53:55.991] Loaded local transaction journal         transactions=0 dropped=0
+INFO [03-04|09:53:55.992] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-04|09:53:55.992] Gasprice oracle is ignoring threshold set threshold=2
+INFO [03-04|09:53:55.992] Starting peer-to-peer node               instance=Geth/v1.10.6-stable/darwin-amd64/go1.16.6
+INFO [03-04|09:53:56.027] New local node record                    seq=7 id=fb923ac77ad87a98 ip=127.0.0.1 udp=0 tcp=30303
+INFO [03-04|09:53:56.027] Started P2P networking                   self="enode://61ca396e8707b311bd363ede3745f8e417e9e1387cb26f5cc943eae9c10bd90982e649846e346483ac5a8614315f254af37a060629db0256da0e173c61119905@127.0.0.1:30303?discport=0"
+INFO [03-04|09:53:56.029] IPC endpoint opened                      url=/Users/darren/workspace/help/geth-dev/geth.ipc
+INFO [03-04|09:53:56.030] WebSocket enabled                        url=ws://127.0.0.1:8546
+WARN [03-04|09:54:28.804] Served eth_coinbase                      reqid=3 t="32.837µs" err="etherbase must be explicitly specified"
+INFO [03-04|09:55:18.138] Updated mining threads                   threads=4
+INFO [03-04|09:55:18.138] Transaction pool price threshold updated price=1,000,000,000
+ERROR[03-04|09:55:18.138] Cannot start mining without etherbase    err="etherbase must be explicitly specified"
+WARN [03-04|09:55:18.138] Served miner_start                       reqid=11 t="196.625µs" err="etherbase missing: etherbase must be explicitly specified"

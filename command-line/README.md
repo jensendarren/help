@@ -291,7 +291,7 @@ xxd -p cat.png cat.txt
 xxd -p -r cat.txt catDecoded.png
 ```
 
-## Check SHA Digest of a file download
+## Check SHA Digest / checksum of a file download
 
 ```
 shasum -a 256 filename

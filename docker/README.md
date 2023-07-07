@@ -9,6 +9,14 @@
 
 [Check this Rails 6 Docker example](https://github.com/jensendarren/rails6-docker-demo)
 
+### Mac M1 users
+
+NOTE: If you are an M1 Mac user you will need to add this line to your `bash_profile`. Details here
+
+```
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+```
+
 ### Basic commands
 
 A good image to use for playing around with Docker and Docker Compose is `tutum/hello-world`

@@ -14,6 +14,17 @@ Change the **local** username for commits made in a _specific_ repo:
 git config user.name "Darren Jensen Contractor"
 git config user.email "darren.jensen@acontractor.com"
 ```
+
+### Git tags
+
+How to tag in git!
+
+```
+git tag 0.1.1
+
+git push origin 0.1.1
+```
+
 ### Git diff
 
 If you have just made a commit, or want to see what has changed in the last commit compared to the current state use the following command. This will compare the HEAD with the commit immediately prior:

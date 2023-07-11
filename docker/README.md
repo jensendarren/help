@@ -17,6 +17,12 @@ NOTE: If you are an M1 Mac user you will need to add this line to your `bash_pro
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
+OR 
+
+```
+export DOCKER_DEFAULT_PLATFORM=linux/arm/v7
+```
+
 ### Basic commands
 
 A good image to use for playing around with Docker and Docker Compose is `tutum/hello-world`

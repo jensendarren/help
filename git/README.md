@@ -219,6 +219,18 @@ git reset --hard origin/branch_to_completely_overwrite_master
 git push --force
 ```
 
+### Rollback a branch to a specific commit
+
+To roll back to a commit (e.g. SHA `07d066f0`) on a branch you can do the following:
+
+```
+git checkout -b backup/main
+
+git reset --hard 07d066f0
+
+git push -f origin main
+```
+
 ## Fork a Github repo to Gitlab
 
 1. Create the empty repo in Gitlab
